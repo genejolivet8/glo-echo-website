@@ -1,0 +1,19 @@
+body {
+    font-family: 'sans';
+    background-image: url(../images/tiger.jpg);
+    background-repeat: repeat;
+    color: #FFD700;
+    background-size: 100%;
+}
+.nav { border: 1px solid orange;
+background-color: orange;
+color:blue;
+padding: 1px 1px;
+margin-left: 1px;
+text-decoration: none;
+}
+p {
+    font-size:48px;
+    font-weight: bold;
+    font-family: fantasy;
+}
