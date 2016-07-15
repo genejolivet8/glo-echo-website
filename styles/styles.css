@@ -13,7 +13,78 @@ margin-left: 1px;
 text-decoration: none;
 }
 p {
-    font-size:48px;
+    font-size:43px;
     font-weight: bold;
     font-family: fantasy;
+    color:blue;
 }
+
+.btn1 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+
+.btn2 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+
+.btn3 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+.btn1:hover {
+    background-color: red;
+    transition-duration: 8s;
+}
+
+.btn2:hover {
+    background-color: red;
+    transition-duration: 8s;
+}
+
+.btn3:hover {
+  background-color: red;
+  transition-duration: 8s;
+  
+}
+
+.common {
+    font-family: 'sans';
+    background-image: url(../images/tiger.jpg);
+    background-repeat: repeat;
+    color: #FFD700;
+    background-size: 100%;
+    
+}
+.about-us-content {
+    background-color: rgba(255, 255, 255, .7);
+    }
+.common-content {
+    background-color: rgba(255, 255, 255, .7);
+}
+
