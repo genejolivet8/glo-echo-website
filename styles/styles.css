@@ -1,7 +1,7 @@
 body {
     font-family: 'sans';
     background-image: url("../images/tiger.jpg");
-    background-repeat: repeat;
+    background-repeat:repeat;
     color: #FFD700;
     background-size: 100%;
 }
@@ -16,7 +16,7 @@ p {
     font-size:72px;
     font-weight: bold;
     font-family: fantasy;
-    color:black;
+    color:white;
 }
 
 .btn1 {
@@ -73,10 +73,23 @@ p {
   
 }
 
+.btn4 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+
 .common {
     font-family: 'sans';
     background-image: url(../images/tiger.jpg);
-    background-repeat: repeat;
+    background-repeat:none;
     color: #FFD700;
     background-size: 100%;
     
@@ -99,10 +112,14 @@ p {
 }
 .text{
      position:relative;
-     float:left 40px; 
+     float:clear; 
 }
 .list {
-    background-color: rgba(255, 255, 255, .7);
-    color: black;
+    background-color: rgba(0, 0, 0, .7);
+    color: yellow;
     font-size: 40px;
 }
+
+
+
+
