@@ -1,13 +1,13 @@
 body {
     font-family: 'sans';
-    background-image: url("../images/tiger.jpg");
-    background-repeat:repeat;
+    background-image: url("http://www.amazingwallpaperz.com/wp-content/uploads/Black-and-Yellow-Abstract-Widescreen-Background-Wallpaper1.jpg");
+    background-repeat: repeat;
     color: #FFD700;
-    background-size: 100%;
+    background-size: cover;
 }
 .nav { border: 1px solid orange;
 background-color: orange;
-color:yellow;
+color:black;
 padding: 1px 1px;
 margin-left: 1px;
 text-decoration: none;
@@ -19,60 +19,28 @@ p {
     color:white;
 }
 
-.btn1 {
-  background-color:gold;
-  border:none;
-  color:black;
-  padding: 5px 10px;
-  text-align:center;
-  font-size: 10px;
-  margin: 12px 12px;
-  cursor:pointer;
-  border-radius: 10px;
-  transition-duration: 8s;
-}
 
-.btn2 {
-  background-color:gold;
-  border:none;
-  color:black;
-  padding: 5px 10px;
-  text-align:center;
-  font-size: 10px;
-  margin: 12px 12px;
-  cursor:pointer;
-  border-radius: 10px;
-  transition-duration: 8s;
-}
 
-.btn3 {
-  background-color:gold;
-  border:none;
-  color:black;
-  padding: 5px 10px;
-  text-align:center;
-  font-size: 10px;
-  margin: 12px 12px;
-  cursor:pointer;
-  border-radius: 10px;
-  transition-duration: 8s;
-}
-.btn1:hover {
+.btn4:hover {
     background-color: blue;
     transition-duration: 1.5s;
 }
 
-.btn2:hover {
+.btn5:hover {
     background-color: blue;
     transition-duration: 1.5s;
 }
 
-.btn3:hover {
+.btn6:hover {
   background-color: blue;
   transition-duration: 1.5s;
   
 }
-
+.btn7:hover {
+  background-color: blue;
+  transition-duration: 1.5s;
+  
+}
 .btn4 {
   background-color:gold;
   border:none;
@@ -86,6 +54,42 @@ p {
   transition-duration: 8s;
 }
 
+.btn5 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+.btn6 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
+.btn7 {
+  background-color:gold;
+  border:none;
+  color:black;
+  padding: 5px 10px;
+  text-align:center;
+  font-size: 10px;
+  margin: 12px 12px;
+  cursor:pointer;
+  border-radius: 10px;
+  transition-duration: 8s;
+}
 .common {
     font-family: 'sans';
     background-image: url(../images/tiger.jpg);
@@ -103,8 +107,8 @@ p {
     font-size: 50px;
 }
 .index-content {
-    color: black;
-    background-color: rgba(255, 255, 255, .7);
+    color: yellow;
+    background-color: rgba(0, 0, 0, .7);
 }
 .static {
     position:absolute;
@@ -116,10 +120,31 @@ p {
 }
 .list {
     background-color: rgba(0, 0, 0, .7);
-    color: yellow;
-    font-size: 40px;
+    color: gold;
+    font-size: 50px;
 }
+.navbar {
+    list-style-type:none;
+    background-color: yellow;
+}
+.navbar a li {
+    display: inline;
+    text-decoration: none;
+    margin: 20px;
+}
+.navbar a {
+    text-decoration:none;
+    color:gray;
+}
+.active {
+    font-weight: bolder;
+}
+.navbar a:hover {
+    background-color: black;
+}
+.navbar  {
+    color: #A9A9A9;
+}
+    
 
-
-
-
+    
