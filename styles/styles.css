@@ -8,7 +8,7 @@ body {
 .nav { border: 1px solid orange;
 background-color: orange;
 color:black;
-padding: 1px 1px;
+padding: 2px 2px;
 margin-left: 1px;
 text-decoration: none;
 }
@@ -116,7 +116,7 @@ p {
 }
 .static {
     position:absolute;
-    border:3px solid yellow;
+    border:10px solid yellow;
 }
 .text{
      position:relative;
@@ -129,34 +129,31 @@ p {
 }
 .navbar {
     list-style-type:none;
-    background-color: yellow;
+    background-color:black;
 }
 .navbar a li {
     display: inline;
     text-decoration: none;
-    margin: 20px;
+    margin: 60px;
 }
 .navbar a {
     text-decoration:none;
-    color:blue;
+    color:gold;
 }
 .active {
     font-weight: bolder;
 }
 .navbar a:hover {
-    background-color: black;
+    background-color: gray;
 }
 .image{
-    float:bottom;
-    margin-left:10px;
+    margin-left:300px;
 }
 .link{
-    margin-left:20px;
+    margin-left:262px;
 }
 
 .common {
     video:
 }
-    
-
     
